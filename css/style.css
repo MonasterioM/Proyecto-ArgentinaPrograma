@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#conteinerAll{
+    display: flex;
+    padding: 0 10px 0 10px;
+    background-color: #0de5a8;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 700px;
+}
+.container-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 616px;
+    height: 700px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #14C3A2;
+}
+.perfil{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.svg{
+    width: 30px;
+    height: 30px;
+}
+#me ul{
+    list-style: none;
+    margin: 30px;
+}
+#me ul li{
+    margin: 5px;
+}
+#proyectos{
+    display: flex;
+    flex-direction: column;
+    width: 775px;
+    height: 700px;
+    border-radius: 5px;
+    background-color: #B8FD99;
+}
+.cards{
+    width: 775px;
+    height: 200px;
+}
+.titulo{
+    width: 150px;
+    text-align: center;
+    background-color: white;
+    border-radius: 0 5px 5px 0;
+    padding: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.sobreMi{
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 600px;
+    text-align: center;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style:none;
+    margin-top: 40px;
+}
+.listEstudios{
+    list-style:disc;
+    width: 400px;
+}
